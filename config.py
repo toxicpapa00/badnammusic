@@ -31,7 +31,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAM-KRITI/Exoxs-")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -40,9 +40,8 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
 
 # YT-API Get from @AmShashank on tg
-
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots901703') # youtube song api ke
+YOUR_API_KEY = getenv("YOUR_API_KEY", "")
+YOUR_API_URL = getenv("YOUR_API_URL", "")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -107,4 +106,9 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 if SUPPORT_CHANNEL and not re.match(r"(?:http|https)://", SUPPORT_CHANNEL):
     raise SystemExit(
         "[ERROR] - Your SUPPORT_CHANNEL url is invalid. It must start with https://"
+    )
+
+if SUPPORT_CHAT and not re.match(r"(?:http|https)://", SUPPORT_CHAT):
+    raise SystemExit(
+        "[ERROR] - Your SUPPORT_CHAT url is invalid. It must start with https://"
     )
