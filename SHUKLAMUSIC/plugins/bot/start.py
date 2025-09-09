@@ -48,6 +48,7 @@ async def start_pm(client, message: Message, _):
                 random.choice(BADNAAM_PIC),
                 caption=_['help_1'].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
+                has_spoiler=True,
             )
         elif name.startswith("sud"):
             await sudoers_list(client=client, message=message, _=_)
@@ -82,6 +83,7 @@ async def start_pm(client, message: Message, _):
                 photo=thumbnail,
                 caption=searched_text,
                 reply_markup=key,
+                has_spoiler=True,
             )
             if await is_on_off(2):
                 await app.send_message(
@@ -97,6 +99,7 @@ async def start_pm(client, message: Message, _):
             random.choice(BADNAAM_PIC),
             caption=_["start_2"].format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
             reply_markup=InlineKeyboardMarkup(out),
+            has_spoiler=True,
         )
         if await is_on_off(2):
             await app.send_message(
@@ -113,6 +116,7 @@ async def start_gp(client, message: Message, _):
         random.choice(BADNAAM_PIC),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
+        has_spoiler=True,
     )
     return await add_served_chat(message.chat.id)
 
@@ -155,6 +159,7 @@ async def welcome(client, message: Message):
                         app.mention,
                     ),
                     reply_markup=InlineKeyboardMarkup(out),
+                    has_spoiler=True,
                 )
                 await add_served_chat(message.chat.id)
                 await message.stop_propagation()
