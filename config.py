@@ -40,8 +40,10 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
 
 # YT-API Get from @AmShashank on tg
-YOUR_API_KEY = getenv("YOUR_API_KEY", "")
-YOUR_API_URL = getenv("YOUR_API_URL", "")
+
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots901703') # youtube song api ke
+
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
