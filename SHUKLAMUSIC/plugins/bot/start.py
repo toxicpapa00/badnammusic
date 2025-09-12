@@ -28,10 +28,10 @@ from strings import get_string
 from config import BANNED_USERS
 
 BADNAAM_PIC = [
-    "https://files.catbox.moe/jriqin.jpg",
-    "https://files.catbox.moe/aoi39v.jpg",
-    "https://files.catbox.moe/vcezng.jpg",
-    "https://files.catbox.moe/rnepxd.jpg",
+    "https://files.catbox.moe/kq8gwp.jpg",
+    "https://files.catbox.moe/tyijbe.jpg",
+    "https://files.catbox.moe/6lywo3.jpg",
+    "https://files.catbox.moe/c4jv3u.jpg",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
