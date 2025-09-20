@@ -23,11 +23,11 @@ async def must_join_channel(app: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://files.catbox.moe/jriqin.jpg", caption=f"⌯ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [⌯sᴜᴘᴘᴏʀᴛ⌯]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [⌯sᴜᴘᴘᴏʀᴛ⌯]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
+                    photo="https://files.catbox.moe/jriqin.jpg", caption=f"⦿ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [⦿sᴜᴘᴘᴏʀᴛ⦿]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [⦿sᴜᴘᴘᴏʀᴛ⦿]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("⌯ Jᴏɪɴ ⌯", url="https://t.me/KRITI_SUPPORT_GROUP")
+                                InlineKeyboardButton("⦿ Jᴏɪɴ ⦿", url="https://t.me/kriti_bot_update")
                             ]
                         ]
                     )
