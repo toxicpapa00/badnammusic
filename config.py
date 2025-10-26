@@ -43,9 +43,9 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+9Vd00hOXqwU4OGM1")
 YOUR_API_KEY = getenv("YOUR_API_KEY", "")
 YOUR_API_URL = getenv("YOUR_API_URL", "")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", '') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots2d8c91') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
