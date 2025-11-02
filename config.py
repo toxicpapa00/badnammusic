@@ -36,8 +36,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ASUR_SAMRAJY_NET")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+gn8uTD4zW60zZDY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_ABOUT_TOXIC_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xxpR_3jfLFhkYjNl")
 
 # YT-API Get from @AmShashank on tg
 YOUR_API_KEY = getenv("YOUR_API_KEY", "")
@@ -86,7 +86,7 @@ confirmer = {}
 DEBUG_IGNORE_LOG =True
 
 # Image URLs
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/o4e6gc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/d7q9bl.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/7bb907999ea7156227283.jpg")
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
